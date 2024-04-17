@@ -1,19 +1,19 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { ScratchRoutingModule } from './scratch-routing.module';
-import { ScratchComponent } from './scratch.component';
+import { ChRoutingModule } from './ch-routing.module';
+import { ChComponent } from './ch.component';
 import { RouterModule } from '@angular/router';
 
 
 @NgModule({
   declarations: [
-    ScratchComponent
+    ChComponent
   ],
   imports: [
     CommonModule,
-    ScratchRoutingModule,
+    ChRoutingModule,
     RouterModule
   ]
 })
-export class ScratchModule { }
+export class ChModule { }
